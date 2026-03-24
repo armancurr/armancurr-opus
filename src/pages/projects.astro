@@ -1,7 +1,7 @@
 ---
 import Main from "../layouts/main.astro";
 import Navigation from "../components/layout/navigation.astro";
-import ProjectCard from "../components/project/project-card.astro";
+// import ProjectCard from "../components/project/project-card.astro";
 ---
 
 <Main
@@ -10,6 +10,11 @@ import ProjectCard from "../components/project/project-card.astro";
 >
   <Navigation slot="header" />
   <main>
-    <ProjectCard />
+    <!-- <ProjectCard /> -->
+    <section class="px-6 py-10">
+      <div class="rounded-sm border border-neutral-900 bg-black p-6 text-neutral-400">
+        No public projects yet.
+      </div>
+    </section>
   </main>
 </Main>
